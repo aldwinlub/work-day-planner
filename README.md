@@ -14,7 +14,7 @@ https://aldwinlub.github.io/work-day-planner/
 
 The initial look of the Work Day Planner once it is first loaded:
 
-![Initial load-up.](./Assets/images/initial-work-day-planner.png)
+![Initial load-up.](./Assets/images/initial-work-day-planner-load.png)
 
 I added to the planner, clicked the save button, and refreshed the page:
 
