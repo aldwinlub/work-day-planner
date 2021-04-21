@@ -8,18 +8,18 @@ With the implementation of moment.js, the website displays the current date whil
 
 ## Link to GitHub Pages:
 
-
+https://aldwinlub.github.io/work-day-planner/
 
 ## Screenshots!
 
 The initial look of the Work Day Planner once it is first loaded:
 
-![]()
+![Initial load-up.](./Assets/images/initial-work-day-planner.png)
 
 I added to the planner, clicked the save button, and refreshed the page:
 
-![]()
+![Adding one plan to the planner.](./Assets/images/adding-to-planner.png)
 
 I completed the planner with plans, saved the text, and refreshed the page:
 
-![]()
+![Completing the planner.](./Assets/images/completed-planner.png)
