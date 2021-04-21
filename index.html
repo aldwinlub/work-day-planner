@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+    <title>Work Day Planner</title>
+  </head>
+ 
+  <body>
+ 
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Planner</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+ 
+    <div class="container">
+      <div id="time-9AM" class="row time-block" data-time="9">
+        <div class="col-sm-1 hour">
+          9AM
+        </div>
+        <textarea class="description col-sm-10 " placeholder="Let's be productive today! Insert your plans here . . ."></textarea>
+        <button class="btn col-sm-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+ 
+      <div id="time-10AM" class="row time-block" data-time="10">
+        <div class="col-sm-1 hour">
+          10AM
+        </div>
+        <textarea class="description col-sm-10 "></textarea>
+        <button class="btn col-sm-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+ 
+      <div id="time-11AM" class="row time-block" data-time="11"> 
+        <div class="col-sm-1 hour">
+          11AM
+        </div>
+        <textarea class="description col-sm-10 "></textarea>
+        <button class="btn col-sm-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+ 
+      <div id="time-12PM" class="row time-block" data-time="12">
+        <div class="col-sm-1 hour">
+          12PM
+        </div>
+        <textarea class="description col-sm-10 "></textarea>
+        <button class="btn col-sm-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+ 
+      <div id="time-1PM" class="row time-block" data-time="13">
+        <div class="col-sm-1 hour">
+          1PM
+        </div>
+        <textarea class="description col-sm-10 "></textarea>
+        <button class="btn col-sm-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+ 
+      <div id="time-2PM" class="row time-block" data-time="14">
+        <div class="col-sm-1 hour">
+          2PM
+        </div>
+        <textarea class="description col-sm-10 "></textarea>
+        <button class="btn col-sm-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+ 
+      <div id="time-3PM" class="row time-block" data-time="15">
+        <div class="col-sm-1 hour">
+          3PM
+        </div>
+        <textarea class="description col-sm-10 "></textarea>
+        <button class="btn col-sm-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+ 
+      <div id="time-4PM" class="row time-block" data-time="16">
+        <div class="col-sm-1 hour">
+          4PM
+        </div>
+        <textarea class="description col-sm-10 "></textarea>
+        <button class="btn col-sm-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+ 
+      <div id="time-5PM" class="row time-block" data-time="17"> 
+        <div class="col-sm-1 hour">
+          5PM
+        </div>
+        <textarea class="description col-sm-10 "></textarea>
+        <button class="btn col-sm-1 saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdjns.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdjns.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+    <script src="./Assets/js/script.js"></script>
+  </body>
+</html>
